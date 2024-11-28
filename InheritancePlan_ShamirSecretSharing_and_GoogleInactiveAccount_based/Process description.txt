@@ -1,0 +1,36 @@
+Andres' Cryptocurrencies inheritance scheme
+============================================
+
+The basic process consists of dividing a wallet's seed (12 words) into 2 of 3 chunks using the Shamir Secret Sharing Scheme:
+	https://iancoleman.io/shamir/
+Then use the GMail/Google account “Inactive Account Manager” feature to send the data to two different groups of people.
+
+At least two Google accounts will be created and configured to share a folder with the required files and instructions to the different groups of people after a certain period of inactivity (N months).
+
+The owner of the crypto assets will be responsible for maintaining all the Google accounts active (logging into them in less than N months regular basics). 
+
+Once the owner's consciousness has dissipated into the universe, there will be no one to keep the Google accounts active, and once N months of inactivity have passed, the inheritance process will be triggered.
+
+The data chunks needed to regenerate the seed will be stored inside a password-protected RAR file (different passwords for each group of people). 
+The password will be provided beforehand to all the people on the groups, together with proper advice and training on the process.
+
+Groups of people:
+	1# Owner's close family members
+	2# First inheritor family members
+	3# First inheritor
+		He/she will be receiving the two groups' data, so he/she can reconstruct the seed by himself.
+		=> Only in the case of both owner and 1st inheritor missing, there'll be the need to be agreement between the two groups of people.
+
+3rd chunk of data:
+	# It could be stored in a 3rd Google account with a longer period of inactivity
+	# Used as 1st inheritor way to access the data (instead of sending both data to she/he)
+	# To be sent to a legal advisor/mediator.
+	# To be sent to the owner's preferred group (likely its family)
+
+
+
+Know issues:
+	❌ You have to put the seed online. Although it is divided, protected by passwords and saved in different Google accounts, it requires a careful process of generating the RAR files, putting them online, etc.
+	❌ It can be complicated to manage different stacks of assets (eg: KYC / non-KYC). The same for multiple wallets. Maybe it requieres two separate schemas. 
+	✔ Relatively easy to implement (no multi-sig, etc)
+	✔ Multiple assets can be supported

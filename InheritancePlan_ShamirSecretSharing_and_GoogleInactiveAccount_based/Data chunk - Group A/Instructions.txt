@@ -1,0 +1,16 @@
+Andres' Cryptocurrencies inherintance scheme
+============================================
+
+The process consists of regenerating a wallet seed based on chunks of data sent to two diferent groups of people.
+
+The chunk to reconstruct the seed is in the .rar file. You need the password provided earliear by Andres to access the data.
+
+With the data, you can get together with any of these contacts of the other group who will have the other part needed to put together the seed:
+	# contact 1
+	# contact ...
+	# contact N
+
+After having 2 out of 3 parts, you should use the Shamir.html file to put together the parts and reconstruct the seed.
+
+Use Trust Wallet to enter the reconstructed seed and be able to move/cash out the crypto assets:
+	https://trustwallet.com/download
